@@ -15,29 +15,29 @@ STAR_WIDTH: int = 20
 STAR_HEIGHT: int = 35
 STAR_VEL :int = 5
 player_x : int = 200
-player_y : int = HEIGHT-Player_height
-velocity : int = 5
 Player_width :int = 60
 Player_height :int = 60
+player_y : int = HEIGHT-Player_height
+velocity : int = 5
 # to configure window size
 WIN = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption('Space Dodge')
 
 BG = pygame.transform.scale(pygame.image.load(
-    os.path.join('/home/username/Desktop/Python/SpaceWar','bg.jpeg')),
+    os.path.join('C:/Users/ilyes/OneDrive/Bureau/SpaceWar-Pygame','bg.jpeg')),
                            (WIDTH,HEIGHT))
 
 
 star_pic = pygame.transform.rotate(pygame.transform.scale(pygame.image.load(
-    os.path.join('/home/username/Desktop/Python/SpaceWar','bullet.png')
+    os.path.join('C:/Users/ilyes/OneDrive/Bureau/SpaceWar-Pygame','bullet.png')
 ),(STAR_WIDTH,STAR_HEIGHT)),180)
 
 ship = pygame.transform.scale(pygame.image.load(
-    os.path.join('/home/ilyes/username/Python/SpaceWar','spaceship_red.png')
+    os.path.join('C:/Users/ilyes/OneDrive/Bureau/SpaceWar-Pygame','spaceship_red.png')
     ),(Player_width,Player_height) )
 
 #Music
-music = pygame.mixer.music.load('SpaceWar/space_music.mp3')
+music = pygame.mixer.music.load('space_music.mp3')
 pygame.mixer.music.play(-1)
  
 
