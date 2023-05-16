@@ -24,16 +24,16 @@ WIN = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption('Space Dodge')
 
 BG = pygame.transform.scale(pygame.image.load(
-    os.path.join('C:/Users/ilyes/OneDrive/Bureau/SpaceWar-Pygame','bg.jpeg')),
+    os.path.join('C:/Users/username/OneDrive/Bureau/SpaceWar-Pygame','bg.jpeg')),
                            (WIDTH,HEIGHT))
 
 
 star_pic = pygame.transform.rotate(pygame.transform.scale(pygame.image.load(
-    os.path.join('C:/Users/ilyes/OneDrive/Bureau/SpaceWar-Pygame','bullet.png')
+    os.path.join('C:/Users/username/OneDrive/Bureau/SpaceWar-Pygame','bullet.png')
 ),(STAR_WIDTH,STAR_HEIGHT)),180)
 
 ship = pygame.transform.scale(pygame.image.load(
-    os.path.join('C:/Users/ilyes/OneDrive/Bureau/SpaceWar-Pygame','spaceship_red.png')
+    os.path.join('C:/Users/username/OneDrive/Bureau/SpaceWar-Pygame','spaceship_red.png')
     ),(Player_width,Player_height) )
 
 #Music
