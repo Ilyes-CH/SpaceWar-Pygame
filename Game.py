@@ -89,10 +89,9 @@ def main():
     elapsed_time = 0
     
 #Projectiles
-    star_add_increment : int = 2000    #ms this the condition to be met
-    star_count : int = 0 #counts & tells when we add the next star
+    star_add_increment : int = 2000    
+    star_count : int = 0 
     stars : list = []
-    # Lives=["|","|","|","|"]
     Lives=[1,2,3,4]
     
 # creating the player's rectangle
@@ -102,7 +101,7 @@ def main():
     
     while run:
     # fps
-        star_count += clock.tick(60) #it checks every ms after each tick this is to keep a precise track of the time
+        star_count += clock.tick(60) 
 
         elapsed_time = time.time()-start_time
         
@@ -149,6 +148,7 @@ def main():
     pygame.quit()
 
 
+    
 if __name__ == '__main__':
     main()
 
