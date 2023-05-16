@@ -1,5 +1,5 @@
 # SpaceWar-Pygame
-![Screenshot from 2023-05-16 16-15-08](Screenshot from 2023-05-16 16-15-08)
+![Screenshot from 2023-05-16 16-15-08](Screenshot from 2023-05-16 16-15-08.jpg)
 
 ## Details:
 
